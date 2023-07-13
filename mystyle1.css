@@ -1,0 +1,22 @@
+
+span {
+    color: rgb(255, 17, 0);
+}
+
+.chavi {
+   color: rgb(99, 49, 146);
+}
+span[name=home] {
+    color: chocolate;
+}
+
+span.shimi:hover {
+    color: darkgreen;
+}
+
+input[type=text] {
+color: rgb(33, 186, 206);
+}
+#number {
+    color: dodgerblue;
+}
