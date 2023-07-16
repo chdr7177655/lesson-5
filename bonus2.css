@@ -1,0 +1,39 @@
+
+.circle {
+    background: #e7606b;
+    width: 1000px;
+    height: 1000px;
+    margin: auto;
+    border-radius: 1000%;
+    overflow: hidden;
+    
+  }
+  
+
+  
+  .circle {
+    -webkit-animation:grow 2s infinite;
+  
+  }
+  
+  @-webkit-keyframes grow {
+   0% {
+  -webkit-transform: scale( 0 );-moz-transform: scale( 0 );-o-transform: scale( 0 );-ms-transform: scale( 0 );transform: scale( 0 );
+    }
+    20% {
+        -webkit-transform: scale( 0.1 );-moz-transform: scale( 0.1 );-o-transform: scale( 0.1 );-ms-transform: scale( 0.1 );transform: scale( 0.1 );
+        }
+        40% {
+            -webkit-transform: scale( 0.1 );-moz-transform: scale( 0.1 );-o-transform: scale( 0.1 );-ms-transform: scale( 0.1 );transform: scale( 0.1 );
+            }
+    60% {
+    -webkit-transform: scale( 0.1 );-moz-transform: scale( 0.1 );-o-transform: scale( 0.1 );-ms-transform: scale( 0.1 );transform: scale( 0.1 );
+    }
+    
+    80% {
+    -webkit-transform: scale( 0 );-moz-transform: scale( 0 );-o-transform: scale( 0 );-ms-transform: scale( 0 );transform: scale( 0 );
+    }
+    100% {
+        -webkit-transform: scale( 0 );-moz-transform: scale( 0 );-o-transform: scale( 0 );-ms-transform: scale( 0 );transform: scale( 0 );
+        }
+  }
