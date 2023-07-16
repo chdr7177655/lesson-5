@@ -1,0 +1,50 @@
+body{
+    background-color: #68d3fd  ;
+
+}
+
+img.B{
+    width: 101%;
+    height: 570PX;
+}
+
+
+
+img.A{
+   -moz-animation-duration: 30s;
+   -webkit-animation-duration: 30s;
+   -moz-animation-name: slidein;
+   -webkit-animation-name: slidein;
+   background-color: #a8aba701
+
+}
+div.a {
+   
+   position: relative;
+   animation-name: example;
+   animation-duration: 30s;
+   
+ }
+@-moz-keyframes slidein {
+   from {
+      margin-left:90%;
+   }
+   to {
+      margin-left:-15%;
+   }
+}
+@-webkit-keyframes slidein {
+   from {
+      margin-left:90%;
+   }
+   to {
+      margin-left:-15%;
+   }
+}
+@keyframes example {
+   0%   {top:50px;}
+   20%  { top:250px;}
+   45%  {top:0px;}
+   70%  {top:300px;}
+   100% {top:100px;}
+ }
