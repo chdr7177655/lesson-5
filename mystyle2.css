@@ -1,0 +1,35 @@
+div.a,.b,.c {
+margin: 20px;
+border:1px black solid;
+}
+ 
+ div.a { 
+    background-color: yellow;
+    width: 100px;
+    height: 150px;
+    float: left;
+}
+
+div.b {
+    background-color: yellow;
+    width: 100px;
+    height: 150px;
+    float: left;
+}
+
+div.c {
+ background-color: yellow;
+ width: 100px;
+ height: 150px;
+ float: left;
+
+}
+
+ul{
+
+    background-color: blue;
+    border:3px red solid;
+    margin-top: 0px;
+}
+
+   
